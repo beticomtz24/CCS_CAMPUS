@@ -1,0 +1,82 @@
+/*Selector de clase*/
+
+.importante {
+    color: blue;
+}
+
+/*Selector de ID (Identificador), en CSS lo invocamos con -> # <- */
+
+#pie{
+    background-color: brown;
+    color: antiquewhite;
+}
+/*Selector de Clase*/
+
+.caja{
+    /* border-radius: 10px; */
+    padding: 15px ;
+    border: 2px solid;
+    margin: 20px;
+   /* border-top: 10px solid;
+    border-right: 30px solid;
+    border-bottom: 2px solid;
+    border-left: 10px solid;
+    */
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.exito{
+    background-color: rgb(25, 145, 51);
+    color: rgb(255, 255, 255);
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border-color: rgb(60, 191, 130);
+
+
+}
+
+.advertencia{
+    background-color: rgb(243, 215, 8);
+    color: rgb(0, 0, 0);
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border-color: rgb(212, 255, 0);
+   }
+
+   .error{
+    background-color: rgb(243, 8, 8);
+    color: rgb(255, 255, 255);
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border-color: rgb(51, 51, 51);
+   }
+
+
+
+.tacto:hover{
+    background-color: rgb(255, 0, 136);
+}
+
+/* Selector de atributo */
+/*
+[type="tel"], [type="text"]{
+    border-color: blue;
+}
+[disabled]{
+    border-color: red;
+}
+*/
+/*Hijo directo con signo  | > | */
+/*.caja > h3{
+    color: blueviolet;
+
+}
+
+
+/*Selector adyacente con signo de | + | */
+/*
+h3 + p 
+{
+    color: rgb(170, 170, 170);
+}
+
+*/
+
